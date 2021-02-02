@@ -56,7 +56,7 @@ func main() {
 	ctx := context.Background()
 	// S3_ENDPOINT="localhost:9000"
 	// S3_ENDPOINT="minio.minio:9000"
-	endpiont := os.Getenv("S3_ENDPOINT")
+	endpoint := os.Getenv("S3_ENDPOINT")
 	// ACCESS_KEY_ID="xxx"
 	accessKeyID := os.Getenv("ACCESS_KEY_ID")
 	// SECRET_ACCESS_KEY="xxx"
